@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+<body>
+  <header>
+    <h1>ReclameAqui</h1>
+    <input type="text" class="input-search" placeholder="Pesquise por nome, cnpj ou site da empresa">
+    <button class="button register">Cadastrar</button>
+    <button class="button login">Fazer Login</button>
+  </header>
+  <main>
+    <div class="title-subtitle">
+      <h2>Olá, crie uma conta no Reclame AQUI</h2>
+      <h3>Com você logado conseguimos oferecer um serviço melhor e mais personalizado. Navegue logado e ajude outros milhões de consumidores.</h3>
+    </div>
+    <div class="form-required">
+      <span>Preencha o formulário abaixo <span class="asterisco">*</span> Todos os campos são obrigatórios</span>
+    </div>
+    <form action="#" id="form">
+      <div class="title-form">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
+        <span>Dados pessoais</span>
+      </div>
+
+      <div class="container-input">
+        <label for="name" class="text-label"> <span class="asterisco">*</span> Nome e sobrenome (Conforme escrito no seu CPF)</label>
+        <input class="input-style" type="text" id="name" placeholder="Digite seu nome e sobrenome">
+      </div>
+
+      <div class="container-flex">      
+        <div class="container-input container-3">
+          <label for="cpf" class="text-label"> <span class="asterisco">*</span> CPF</label>
+          <input class="input-style" type="text" id="cpf" placeholder="___.___.___-__">
+        </div>
+
+        <div class="container-input container-3">
+          <label for="birthDate" class="text-label"> <span class="asterisco">*</span> Data de Nascimento</label>
+          <input class="input-style" type="date" id="birthDate" placeholder="__/__/____">
+        </div>
+
+        <div class="input-radio">
+          <p class="text-label">
+            <span class="asterisco">*</span> Gênero
+          </p>
+
+          <div class="container-radio-flex">
+            <div class="container-radio">
+              <input class="radio" type="radio" name="sex" id="male" value="Masculino">
+              <label for="male">Masculino</label>
+            </div>
+            <div class="container-radio">
+              <input class="radio" type="radio" name="sex" id="female" value="Feminino">
+              <label for="female">Feminino</label>
+            </div>
+            <div class="container-radio">
+              <input class="radio" type="radio" name="sex" id="other" value="Outro">
+              <label for="other">Outro</label>
+            </div>
+
+          </div>
+
+        </div>
+
+    </div>
+
+      <div class="container-input">
+        <label for="state" class="text-label"> <span class="asterisco">*</span> Estado:</label>
+
+        <select name="state" id="state" class="input-style">
+          <option value="PE">Pernambuco</option>
+          <option value="AC">Acre</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PR">Paraná</option>
+        </select>
+      </div>
+
+      <div class="container-input">
+        <label for="city" class="text-label"> <span class="asterisco">*</span> Cidade</label>
+        <input class="input-style" type="text" id="city" placeholder="Cidade">
+      </div>
+
+      <div class="title-form">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
+          <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+        </svg>
+        <span>Dados de acesso</span>
+      </div>
+
+      <div class="container-input">
+        <label for="email" class="text-label"> <span class="asterisco">*</span> Email</label>
+        <input class="input-style" type="email" id="email" placeholder="Digite o seu email">
+      </div>
+
+      <div class="container-input">
+        <label for="numPhone" class="text-label"> <span class="asterisco">*</span> Celular</label>
+        <input class="input-style" type="text" id="numPhone" placeholder="(  )">
+      </div>
+
+      <div class="container-att">
+        <input type="checkbox" id="check-att">
+        <div class="att-text">
+          <label for="check-att" class="text-label">Eu aceito receber atualizações do Reclame AQUI pelo WhatsApp</label>
+          <p>Fique tranquilo, nunca enviaremos propaganda para seu número</p>
+        </div>
+      </div>
+
+      <div class="container-input">
+        <label for="password" class="text-label"> <span class="asterisco">*</span> Crie uma senha</label>
+        <input class="input-style" type="password" id="password" placeholder="Digite sua senha">
+      </div>
+
+      <div class="container-input">
+        <label for="confirm-password" class="text-label"> <span class="asterisco">*</span> Confirmar senha</label>
+        <input class="input-style" type="password" id="confirm-password" placeholder="Digite a senha novamente">
+      </div>
+
+      <div class="container-term">
+        <input type="checkbox" id="politica">
+        <label for="politica">Li e concordo com os Política de Privacidade</label>
+        <br>
+        <input type="checkbox" id="uso">
+        <label for="uso">Li e concordo com os Termos de Uso do Reclame AQUI</label>
+        <br>
+        <button class="button btn-cadastrar">Cadastrar</button>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
