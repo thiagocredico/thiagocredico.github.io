@@ -5,3 +5,46 @@
 .selected {
   background-color: gray;
 }
+
+body {
+  margin-top: 120px;
+  width: 70%;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  size-adjust: auto;
+  justify-content: center;
+  background-image: url('todolist.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  align-items: center;
+}
+
+.justify {
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  size-adjust: auto;
+  justify-content: center;
+  max-width: 20%;
+  align-items: stretch;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4%;
+  max-width: fit-content;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  size-adjust: auto;
+  justify-content: center;
+  align-items: center;
+  
+}
