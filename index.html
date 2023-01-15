@@ -1,90 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
 
+    <title>Portfólio Web</title>
+    <style>
+      body {
+        background-color: rgb(175, 197, 185);
+      }
 
-  <title>Portfólio Web</title>
-  <style>
+      .meuNome,
+      .descricao {
+        font-family: "Comfortaa", cursive;
+        color: green;
+      }
 
-   body {
-      background-color: rgb(175, 197, 185);
-    }
-   
-   .meuNome, .descricao {
-    font-family: 'Comfortaa', cursive;
-    color:green
-    }
+      h3,
+      h4 {
+        font-family: "Oxygen", sans-serif;
+        color: olivedrab;
+      }
 
-  
-   h3, h4 {
-    font-family: 'Oxygen', sans-serif;
-    color:olivedrab
-   }
+      .javascript {
+        font-size: 20px;
+      }
 
-    .javascript {
-      font-size: 20px;
-    }
+      .sql {
+        font-size: 18px;
+      }
 
-    .sql {
-      font-size: 18px;
-    }
+      .react {
+        font-size: 16px;
+      }
 
-    .react {
-      font-size: 16px;
-    }
+      .bootstrap {
+        font-size: 14px;
+      }
 
-    .bootstrap {
-      font-size: 14px;
-    }
+      .metoAgil {
+        font-size: 12px;
+      }
 
-    .metoAgil {
-      font-size: 12px;
-    }
+      #minhaFoto {
+        width: 25%;
+        padding: 1.8%;
+        border: 1.8%;
+        border-radius: 50%;
+      }
 
-    #minhaFoto{
-    width: 25%;
-    margin-top: 100px;
-    padding: 1.8%;
-    border: 1.8%;
-    border-radius: 50%;
-}
+      .portfolio {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://www.linkedin.com/in/thiago-credico/">LinkedIn</a>
+    <h1 class="meuNome">Thiago Banfi Credico</h1>
+    <img
+      id="minhaFoto"
+      src="thiagoPerfil.jpg"
+      width="500px"
+      alt="Foto de perfil"
+      id="foto"
+    />
+    <h3 class="meuTitulo">Desenvolvedor Full Stack</h3>
+    <p class="descricao">
+      Graduado em Engenharia Mecânica com Ẽnfase em Mecatrônica pela
+      <strong><em>CUFSA-Faculdade de Engenharia Eng. Celso Daniel</em></strong>
+      e cursando Desenvolvedor Full Stack pela <strong><em>Trybe</em></strong
+      >, após atuar por mais de 10 anos na área, em transição de carreira para
+      Desenvolvimento web Full Stack.
+    </p>
+    <p class="resido"><strong>Santo André - SP</strong></p>
 
-  </style>
-</head>
-<body>
-  <a href="https://www.linkedin.com/in/thiago-credico/">LinkedIn</a>
-  <h1 class="meuNome">Thiago Banfi Credico</h1>
-  <img id="minhaFoto" src="thiagoPerfil.jpg" width="500px" alt="Foto de perfil" id="foto">
-  <h3 class="meuTitulo">Desenvolvedor Full Stack</h3>
-  <p class="descricao">Graduado em Engenharia Mecânica com Ẽnfase em Mecatrônica pela <strong><em>CUFSA-Faculdade de Engenharia Eng. Celso Daniel</em></strong> e cursando Desenvolvedor Full Stack pela <strong><em>Trybe</em></strong>, após atuar por mais de 10 anos na área, em transição de carreira para Desenvolvimento web Full Stack.</p>
-  <p class="resido"><strong>Santo André - SP</strong></p>
-  <h2>Lista de habilidades</h2>
-  <ul>
-    <a href="./exercise-forms/index.html">Forms</a>
-    <a href="./exercise-tech-gallery/tech-gallery.html">Tech Galery</a>
-    <a href="./sd-029-a-project-carta-misteriosa/index.html">Carta Misteriosa</a>
-    <a href="./sd-029-a-project-color-guess/index.html">Color Guess</a>
-    <a href="./sd-029-a-project-lessons-learned/index.html">Lessons Learned</a>
-    <a href="./sd-029-a-project-meme-generator/index.html">Meme Generator</a>
-    <a href="./sd-029-a-project-pixels-art/index.html">Pixels Art</a>
-    <a href="./sd-029-a-project-todo-list/index.html">Todo List</a>
-    <li class="javascript">Javascript</li>
-    <li class="sql">SQL</li>
-    <li class="react">React</li>
-    <li class="bootstrap">Bootstrap</li>
-    <li class="metoAgil">Metodologias ágeis</li>
-  </ul>
-  <a href="thiagoPerfil.jpg">Minha foto</a>
-  <a href="https://blog.betrybe.com/carreira/frontend/" target="_blank">Artigo legal</a>
-</body>
+    <h2 >Itens do Portfólio</h2>
+    <ul class="portfolio">
+      <a href="./exercise-forms/index.html">Forms</a>
+      <a href="./exercise-tech-gallery/tech-gallery.html">Tech Galery</a>
+      <a href="./sd-029-a-project-carta-misteriosa/index.html"
+        >Carta Misteriosa</a
+      >
+      <a href="./sd-029-a-project-color-guess/index.html">Color Guess</a>
+      <a href="./sd-029-a-project-lessons-learned/index.html"
+        >Lessons Learned</a
+      >
+      <a href="./sd-029-a-project-meme-generator/index.html">Meme Generator</a>
+      <a href="./sd-029-a-project-pixels-art/index.html">Pixels Art</a>
+      <a href="./sd-029-a-project-todo-list/index.html">Todo List</a>
+    </ul>
+
+    <h2>Lista de habilidades</h2>
+    <ul>
+      <li class="javascript">Javascript</li>
+      <li class="sql">SQL</li>
+      <li class="react">React</li>
+      <li class="bootstrap">Bootstrap</li>
+      <li class="metoAgil">Metodologias ágeis</li>
+    </ul>
+    <a href="thiagoPerfil.jpg">Minha foto</a>
+    <a href="https://blog.betrybe.com/carreira/frontend/" target="_blank"
+      >Artigo legal</a
+    >
+  </body>
 </html>
