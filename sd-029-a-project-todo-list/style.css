@@ -15,10 +15,10 @@ body {
   flex: auto;
   size-adjust: auto;
   justify-content: center;
-  background-image: url('todolist.jpg');
+  background-image: url('todo-vetor.jpg');
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 50%;
+  background-size: 100% 100%;
   align-items: center;
 }
 
