@@ -1,0 +1,31 @@
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.form-input {
+  flex-direction: row;
+}
+
+.family-radio {
+  display: flex;
+  flex-direction: column;
+}
