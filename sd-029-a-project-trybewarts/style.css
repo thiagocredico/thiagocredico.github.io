@@ -1,31 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
 .header {
-  background-color: rgb(50, 167, 145);
   display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-header-logo {
+  width: 5%;
 }
 
 .trybewarts-login {
   display: flex;
 }
 
+.login-input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px;
+  margin-right: 5px;
+}
+
 main {
   display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+#button-login {
+  padding: 5px;
+  width: 60px;
+  border-radius: 5px;
+  color: white;
+  background-color: blueviolet;
+  border: 1px;
 }
 
 #evaluation-form {
   display: flex;
-  width: 675px;
+  width: 700px;
   flex-direction: column;
+  align-items: center;
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
+  height: 369px;
 }
 
 .form-input {
   flex-direction: row;
 }
 
-.family-radio {
+.form-info {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  width: 100%;
+  /* margin: auto; */
+}
+
+/* .family-radio {
   display: flex;
   flex-direction: column;
+} */
+
+#radio-buttons {
+  width: 40%;
+}
+
+.form-info-input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px;
+  margin: 3px;
+  width: 46%;
+}
+
+.label-house {
+  margin: 6px;
+}
+
+#house {
+  width: 42%;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+  border: 0;
+}
+
+#family-radio{
+  width: 40%;
+}
+
+#label-family {
+  margin-left: 10px;
+}
+
+.checkbox-buttons {
+  width: 28%;
+}
+
+#label-content {
+  width: 100%;
+}
+
+#form-selectors {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#checkbox-buttons div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 98%;
+  background-color: gray;
+  height: 1px;
+  margin: 9px;
+}
+
+#avaliation-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#textarea-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-top: 10px;
+}
+
+#textarea-buttons textarea {
+  resize: none;
+}
+
+#agreement-checkbox {
+  margin-top: 3px;
+  width: 75%;
+  display: flex;
+}
+
+#submit-btn {
+  margin-top: 3px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  background-color: grey;
+  border: 1px;
+  padding: 3px;
+}
+
+footer {
+  background-color: gray;
+  padding: 3px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
