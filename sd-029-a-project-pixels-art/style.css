@@ -4,3 +4,54 @@
   width : 40px;
   height : 40px;
 }
+
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	font-weight: 400;
+	margin: 0 0 var(--space);
+	text-shadow: 0.1em 0.1em 0 orange;
+  text-align: center;
+}
+
+p {
+	margin: 0;
+  text-align: center;
+}
+
+body {
+	--space: clamp(1rem, 2vw, 2.5rem);
+	--shadow: 0.6rem 0.6rem 0;
+	font-family: 'VT323', monospace;
+	font-size: 1.2rem;
+	margin: 0;
+	padding: calc(var(--space) * 2) var(--space);
+	background: rgb(173, 230, 221);
+	accent-color: rgb(6, 26, 24);
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button:hover,
+button:focus-visible {
+	background: orange;
+}
+
+header {
+	outline: 0.3rem solid;
+	padding: var(--space);
+	margin-bottom: calc(var(--space) * 2);
+	box-shadow: var(--shadow);
+	background: peachpuff;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  flex-direction: column;
+}

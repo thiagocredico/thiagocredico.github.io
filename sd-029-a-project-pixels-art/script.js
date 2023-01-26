@@ -1,5 +1,5 @@
 //
-const getBody = document.querySelector('body');
+const getBody = document.querySelector('.wrapper');
 const allPixels = document.getElementsByClassName('pixel');
 const pixelBoard = localStorage.getItem('pixelBoard');
 let pixelLocal = [];
