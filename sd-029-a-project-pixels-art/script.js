@@ -106,6 +106,7 @@ function createVqvInput() {
   createInput.id = 'board-size';
   createInput.type = 'number';
   createInput.min = '1';
+  createInput.placeholder = 'Digite um número de 5 à 50';
   createDiv.appendChild(createInput);
   createDiv.style.padding = '18px';
 }

@@ -1,31 +1,34 @@
 .pixel {
   background-color: white;
-  border : 1px solid black;
+  border : 1px solid rgb(0, 0, 0);
   width : 40px;
   height : 40px;
 }
 
 h1 {
-	font-family: 'Press Start 2P', cursive;
-	font-weight: 400;
+	font-family: 'Nabla', cursive;
+	font-size: 2.5em; 
+	/* font-weight: 400; */
 	margin: 0 0 var(--space);
-	text-shadow: 0.1em 0.1em 0 orange;
+	text-shadow: 0.05em 0.05em 0 gray;
   text-align: center;
 }
 
 p {
 	margin: 0;
   text-align: center;
+  color: rgb(71, 71, 71);
+  font-size: 0.8em; 
 }
 
 body {
-	--space: clamp(1rem, 2vw, 2.5rem);
-	--shadow: 0.6rem 0.6rem 0;
+	--space: clamp(1rem, 2vw, 1.5rem);
+	--shadow: 0.6rem 0.6rem 0 gray;
 	font-family: 'VT323', monospace;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	margin: 0;
-	padding: calc(var(--space) * 2) var(--space);
-	background: rgb(173, 230, 221);
+	padding: calc(var(--space) * 1.5) var(--space);
+	background: rgb(255, 197, 130);
 	accent-color: rgb(6, 26, 24);
 	min-height: 100vh;
 	display: flex;
@@ -35,15 +38,15 @@ body {
 
 button:hover,
 button:focus-visible {
-	background: orange;
+	background: rgb(255, 196, 0);
 }
 
 header {
-	outline: 0.3rem solid;
+	outline: 0.2rem rgb(255, 115, 0) solid;
 	padding: var(--space);
-	margin-bottom: calc(var(--space) * 2);
+	margin-bottom: calc(var(--space) * 1.5);
 	box-shadow: var(--shadow);
-	background: peachpuff;
+	background: rgb(231, 229, 226);
 }
 
 .wrapper {
