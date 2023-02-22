@@ -33,8 +33,8 @@ const getProjectsByTypeOrAll = (typeId) => {
 `,
       imgSrc: './assets/projects/casadecambio.png',
       videoSrc: 'https://streamable.com/e/sjujot',
-      linkedin: '',
-      repository: 'https://github.com/thiagocredico/exercise-casa-de-cambio',
+      // linkedin: '',
+      // repository: 'https://github.com/thiagocredico/exercise-casa-de-cambio',
       site: 'https://convertasuamoeda.surge.sh'
     },
     {
@@ -43,43 +43,35 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'Gato ou Cachorro?',
       date: '24 de Janeiro de 2023',
       languages: ['html5', 'css3', 'javascript', ],
-      description: `O DoWhile 2021 Card é uma aplicação interativa que mostra informações do usuário através da API do GitHub :D <br><br>
+      description: `Gato ou Cachorro é uma aplicação interativa que busca em duas APIs imagens aleatórias de gato ou cachorro. Esta página foi desenvolvida como exercício da Trybe para desenvover habilidades com APIs. Os desafios foram tratar das fetchs e promisses da API, usando as ferramentas VITE e SURGE para compilação e publicação. <br><br>
 
-        Após concluir o evento, adicionei funcionalidades extras, como: <br><br>
+        Esta página foi: <br><br>
         
-        • Modal para o usuário inserir seus próprios dados no Card; <br>
-        • Armazenamento dos dados inseridos pelo usuário no LocalStorage do navegador, fazendo com que as informações sejam mantidas mesmo após fechar a página; <br>
-        • Animação de Flip em 3D (com CSS puro); <br>
-        • Verso do Card com informações sobre o DoWhile 2021; <br>
-        • Versão Desktop e Mobile.`,
+        • Desenvolvida em HTML5, CSS3 e JavaScript; <br>
+        • Compilada pelo Vite; <br>
+        • Publicada pelo Surge;`,
       imgSrc: './assets/projects/gatocachorro.png',
-      videoSrc: 'https://streamable.com/e/qceqn0',
-      linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:6858050562471145472/',
-      repository: 'https://github.com/rhuanbello/origin-nlw-heat',
+      videoSrc: 'https://streamable.com/e/9ufbbz',
+      // linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:6858050562471145472/',
+      // repository: 'https://github.com/rhuanbello/origin-nlw-heat',
       site: 'https://pick-me-cat-dog.surge.sh'
     },
     {
       id: 3,
       type: 2,
-      title: 'Caça Palavras',
+      title: 'Caça-Palavras',
       date: '28 de Outubro de 2021',
       languages: ['html5', 'css3', 'javascript', ],
-      description: `Daily Weather é uma aplicação web que exibe a condição climática de todas as cidades, bairros, estados ou países do mundo. Obtendo tanto os dados da temperatura atual, quanto os dos próximos 7 dias, além da velocidade do vento, nível de umidade, data/hora e temperatura máxima e mínima. <br><br>
+      description: `Caça-palavras é um projeto bônus realizado durante mentoria na Trybe. Trata-se do jogo tradicional de caça-palavras, geradas automáticamente em uma matriz de letras geradas aleatóriamente. Marcando as palavras requeridas, as letras marcadas tornam-se verdes e a palavra na lista de palavras é riscada.<br><br>
 
         Esse projeto foi desenvolvido com as seguintes ferramentas: <br><br>
-        
         • HTML5; <br>
-        • Vanilla JavaScript; <br>
-        • Compilador SASS; <br>
-        • Unsplash API; <br>
-        • Open Weather API (One Call & Current Weather Data); <br>
-        • LocalStorage API; <br>
-        • Moment.js; <br>
-        `,
+        • JavaScript; <br>
+        • CSS3; <br>`,
       imgSrc: './assets/projects/cacapalavras.png',
       videoSrc: 'https://streamable.com/e/gmb238',
-      linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:6862799471626059776/',
-      repository: 'https://github.com/rhuanbello/dailyweather',
+      // linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:6862799471626059776/',
+      // repository: 'https://github.com/rhuanbello/dailyweather',
       site: './caca-palavras/index.html'
 
     },
@@ -89,16 +81,15 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'TrybeWarts',
       date: '14 de Outubro de 2021',
       languages: ['html5', 'css3', 'javascript', ],
-      description: `Esse é um projeto que eu desenvolvi a interface há dois meses atrás, mas que só fui me sentir confiante pra dar continuidade recentemente depois de avançar em meus estudos, pois meu objetivo era de construir toda a lógica do zero, sem utilizar a função eval(). <br><br> Eu ainda não tinha feito uma calculadora, e creio que esse seja um dos principais exercícios pra praticar a lógica de programação, então além de aplicar as funcionalidades e a interface da calculadora do Windows 10, tentei simular uma espécie de ambiente desktop, onde é possível abrir, fechar ou minimizar a aplicação. <br><br>  Algumas features que valem destacar: <br><br>
-        • É possível utilizar o teclado para realizar as operações matemáticas; <br>
-        • Ao "fechar" a calculadora os dados do display são apagados; <br>
-        • Só é possível adicionar um ponto decimal; <br>
-        • O tamanho da fonte do display se adapta conforme os números são adicionados; <br>
-        • Responsivo para Mobile;`,
+      description: `Trybewarts é um projeto avaliativo da Trybe. Neste projeto, foi desenvolvida uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo verdadeiramente mágico! 
+        <br><br>
+        • Criar formulários em HTML; <br>
+        • Utilizar CSS Flexbox para criar layouts flexíveis; <br>
+        • Criar programação lógica em JavaScript para inserção e captura dos dados para gerar formulário`,
       imgSrc: './assets/projects/trybewarts.png',
-      videoSrc: 'https://streamable.com/e/65khi6',
-      linkedin: 'https://www.linkedin.com/posts/rhuanbello_clone-windows-calculator-activity-6854500487987904512-kwzK',
-      repository: 'https://github.com/rhuanbello/clone-windowsCalculator',
+      videoSrc: 'https://streamable.com/e/e7x1dc',
+      // linkedin: 'https://www.linkedin.com/posts/rhuanbello_clone-windows-calculator-activity-6854500487987904512-kwzK',
+      // repository: 'https://github.com/rhuanbello/clone-windowsCalculator',
       site: './sd-029-a-project-trybewarts/index.html'
     },
     {
@@ -107,24 +98,38 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'To-Do-List',
       date: '28 de Setembro de 2021',
       languages: ['html5', 'css3', 'javascript', ],
-      description: "Um E-Commerce utilizando apenas JavaScript (com localStorage) 🚀 <br><br> O objetivo desse segundo checkpoint era de desenvolver não só habilidades técnicas, mas também soft-skills como o trabalho em equipe e a organização. <br> Para essa entrega, nossa equipe (composta por Marcelo Garofalo, Filipe Farias e eu) decidiu transformar a entrega em uma loja virtual com JavaScript, alinhando o projeto com a nossa matéria de Programação Imperativa, ministrada pela instrutora Ana Cristina Teixeira. <br><br> Decidimos explorar as funcionalidades do localStorage para poder armazenar e recuperar as informações dos produtos adicionados ao carrinho, permitindo ao usuário alterar a quantidade de itens ou removê-los completamente. <br><br> Como demonstra o vídeo abaixo, mesmo após fecharmos o nosso navegador, os itens persistem em nosso carrinho de compras devido ao uso do localStorage, que armazena essas informações em nosso browser e possibilita a recuperação destes dados quando a página é aberta novamente.",
+      description: `To-Do-List é um projeto avaliativo da Trybe. Neste projeto, foi implementada uma lista de tarefas, sendo possível adicionar, mover e remover tarefas desta lista. Também há a funcionalidade de salvar as alterações, que ficam armazenadas no Local Storage do navegador fazendo com que lista fique salva mesmo quando a página for recarregada.
+      Esse projeto conta com as seguintes componentes: <br><br>
+      • Imput para digitar as tarefas; <br>
+      • Botões para apagar todos os itens finalizados ou apenas os finalizados; <br>
+      • Botão para salvar a lista no Local Storage; <br>
+      • Botão para remover apenas o item selecionado; <br>
+      • Botões para subir ou descer os itens na lista; <br>`,
       imgSrc: './assets/projects/listadetarefas.png',
-      videoSrc: 'https://streamable.com/e/tlz8yr',
-      linkedin: 'https://www.linkedin.com/posts/rhuanbello_javascript-developer-digital-activity-6849053582579388416-IfoH',
-      repository: 'https://github.com/rhuanbello/deathcatgrocerystore',
+      videoSrc: 'https://streamable.com/e/x1hk8d',
+      // linkedin: 'https://www.linkedin.com/posts/rhuanbello_javascript-developer-digital-activity-6849053582579388416-IfoH',
+      // repository: 'https://github.com/rhuanbello/deathcatgrocerystore',
       site: './sd-029-a-project-todo-list/index.html'
     },
     {
       id: 6,
       type: 1,
-      title: 'Pixels Art',
+      title: 'Pixel Art',
       date: '23 de Setembro de 2021',
       languages: ['html5', 'css3', 'javascript', ],
-      description: "Essa foi a minha tentativa de clonar a interface do YouTube utilizando HTML5, CSS3 e JavaScript. Com o conceito Don't Repeat Yourself na mente, fiz com que todo o projeto rodasse em uma única página manipulada pelo JavaScript, que fica responsável por atualizar o source e a descrição dos vídeos dependendo de qual vídeo o usuário seleciona, além de ocultar/exibir o sidebar e a main para dar destaque ao vídeo. Estou há aproximadamente um mês e meio estudando JavaScript e estou bem satisfeito por já estar conseguindo utilizá-lo para facilitar o desenvolvimento dos meus projetos, isso é extremamente motivador. Voltarei nesse projeto em breve para aprimorá-lo cada vez mais.",
+      description: `Pixel Art é um projeto desenvolvido como requisito avaliativo da Trybe, que tem como intuito a prática a manipulação de elementos no DOM de acordo com eventos de click no navegador.
+      
+      O projeto foi desenvolvido como avaliação pela Trybe, que exigiam os seguintes requisitos:<br><br>
+      • Uma paleta com 4 cores distintas egradas aleatóriamente; <br>
+      • Um quadro de 25 pixels (5x5) em branco; <br>
+      • O pixel deve ser pintado com a cor selecionada na paleta; <br>
+      • Botões para resetar as cores da peleta e para limpar o quadro; <br>
+      • Um local para inserir um valor novo do quadro acionado com botão VQV; <br>
+      • O quadro guarda o desenho criado no Local Storage do navegador, não apagando com uma nova janela; <br>`,
       imgSrc: './assets/projects/pixelart.png',
-      videoSrc: 'https://streamable.com/e/q700dy',
-      linkedin: 'https://www.linkedin.com/posts/rhuanbello_html-css-developer-activity-6845803020157116417-39dj',
-      repository: 'https://github.com/rhuanbello/clone-youtube',
+      videoSrc: 'https://streamable.com/e/9509hk',
+      // linkedin: 'https://www.linkedin.com/posts/rhuanbello_html-css-developer-activity-6845803020157116417-39dj',
+      // repository: 'https://github.com/rhuanbello/clone-youtube',
       site: './sd-029-a-project-pixels-art/index.html'
     },
     {

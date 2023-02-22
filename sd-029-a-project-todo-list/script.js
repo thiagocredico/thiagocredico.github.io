@@ -1,4 +1,4 @@
-const generatedList = document.getElementById('lista-tarefas');
+const generatedList = document.querySelector('.note-lines');
 
 function changetoCompletedStyle(dblclick) {
   const triger2 = dblclick;
@@ -16,10 +16,11 @@ function changeBackgroundColor(event) {
 
 function makeList() {
   const inputtedText = document.getElementById('texto-tarefa');
-  const generateList = document.createElement('li');
+  const generateList = document.createElement('div');
   generateList.innerText = inputtedText.value;
-  generatedList.appendChild(generateList);
-  inputtedText.value = '';
+  generateList.classList.add('line');
+  generatedList.prepend(generateList);
+  // inputtedText.value = '';
   generateList.addEventListener('click', changeBackgroundColor);
   generateList.addEventListener('dblclick', changetoCompletedStyle);
 }
@@ -39,7 +40,7 @@ function listenerCleanAllButton() {
 }
 
 function cleanCompleted() {
-  const completedTasks = document.querySelectorAll('#lista-tarefas>.completed');
+  const completedTasks = document.querySelectorAll('.note-lines>.completed');
   if (completedTasks.length > 0) {
     for (let index = 0; index < completedTasks.length; index += 1) {
       completedTasks[index].remove();

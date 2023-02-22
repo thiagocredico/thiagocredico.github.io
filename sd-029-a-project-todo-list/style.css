@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 .completed {
   text-decoration: line-through solid black;
 }
@@ -9,7 +13,7 @@
 body {
   /* margin-top: 120px; */
   /* width: 100%; */
-  padding: 28px;
+  /* padding: 28px; */
   /* display: flex; */
   /* flex-direction: column; */
   /* flex: auto; */
@@ -20,6 +24,7 @@ body {
   background-position: top center;
   background-size: 100% 100%; */
   align-items: center;
+  gap: 2%;
 }
 
 .instructions {
@@ -35,42 +40,60 @@ body {
 header {
   /* max-width: fit-content; */
   display: flex;
+  margin-top: 1rem;
   /* flex-direction: column; */
   /* flex: auto; */
   /* size-adjust: auto; */
   justify-content: center;
   /* max-width: 36%; */
   align-items: stretch;
+  padding: 1rem;
 
+}
+
+.buttons {
+  gap: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 1.3%;
 }
 
 .justify {
   /* max-width: fit-content; */
   display: flex;
   flex-direction: column;
-  flex: auto;
-  size-adjust: auto;
+  /* flex: auto; */
+  /* size-adjust: auto; */
   justify-content: center;
   /* max-width: 36%; */
   /* align-items: stretch; */
 }
 
 .newTask {
+  /* margin-top: 1%; */
   display: flex;
-  align-items: stretch;
-  flex-shrink: 1;
+  /* align-items: stretch; */
+  /* flex-shrink: 2; */
   justify-content: center;
-  padding: 3px;
+  /* padding: 3px; */
+  gap: 1%;
+  padding: 1rem;
+  /* height: 2rem; */
 }
 
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 8px; 
-  /* margin: 6%;
-  max-width: 70%; */
+input{
+  height: auto;
+  
 }
+
+#criar-tarefa{
+  height: fit-content;
+}
+
+
 
 .lista {
   display: flex;
@@ -81,36 +104,39 @@ header {
   align-items: center;
 }
 
-html, body {
+html,
+body {
   font-family: "helvetica neue";
   font-size: 10px;
   background-color: #89B5DA;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
+
+
 
 .wrapper {
-  min-height: 100vh;
+  min-height: 28rem;
   display: flex;
   justify-content: center;
   /* align-items: center; */
   background-color: #89B5DA;
   position: relative;
   overflow: hidden;
+  margin-top: 1rem;
   /* border-color: #1A6EB4; */
 }
+
 .note {
+  overflow: auto;
   width: 25rem;
-  height: 38rem;
+  height: 26rem;
   background-color: #FEFDF8;
   border: 0.6rem solid #1A6EB4;
   position: absolute;
   z-index: 1;
   border-color: #1A6EB4;
 }
+
 .spiral-part {
   height: 3rem;
   background-color: #A1C5DE;
@@ -119,6 +145,7 @@ html, body {
   align-items: center;
   border-color: #1A6EB4;
 }
+
 .hole {
   width: 0.9rem;
   height: 0.9rem;
@@ -127,6 +154,7 @@ html, body {
   margin: 0 0.6rem;
   border-color: #1A6EB4;
 }
+
 .wire {
   width: 0.3rem;
   height: 2.5rem;
@@ -136,13 +164,17 @@ html, body {
   border-radius: 2px;
   border-color: #1A6EB4;
 }
+
 .note-lines {
   padding: 0.5rem;
+  font-size: 1.69rem;
 }
+
 .line {
   height: 2rem;
   border-bottom: 0.2rem solid #E7E6E2;
 }
+
 .shadow {
   position: absolute;
   width: 46.2rem;
@@ -151,4 +183,45 @@ html, body {
   transform: rotate(-59deg);
   top: 133px;
   right: -8px;
+}
+
+
+footer {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* position:center; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  /* padding: 1%; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+
+.socialMedia {
+  /* display:flex ; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  font-size: larger;
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+  margin: 6px;
+}
+
+.socialMedia>a {
+  /* padding: 15px; */
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  /* text-decoration:solid ; */
+  color:antiquewhite ;
 }
