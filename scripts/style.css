@@ -941,6 +941,8 @@ section#projects .container .cards-projects .box:hover .description {
 }
 
 .modal {
+    overflow-y:auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     width: 75%;
@@ -1029,7 +1031,9 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 480px) {
     .modal .top .video iframe {
-        display: none
+        width: 26rem;
+        height: 18rem;
+        margin-top: 1.5rem
     }
 }
 
