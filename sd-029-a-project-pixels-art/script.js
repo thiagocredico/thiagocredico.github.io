@@ -82,7 +82,7 @@ function newButton() {
   createButton.id = 'button-random-color';
   createButton.innerText = 'Cores aleatórias';
   createDiv.appendChild(createButton);
-  createDiv.style.padding = '18px';
+  createDiv.style.padding = '10px';
 }
 
 function renewColor() {
@@ -94,7 +94,7 @@ function createDivNewBoardInput() {
   const createDiv = document.createElement('div');
   createDiv.style.display = 'flex';
   getBody.appendChild(createDiv);
-  createDiv.style.padding = '18px';
+  // createDiv.style.padding = '18px';
   createDiv.id = 'newBoardInput';
 }
 
@@ -108,7 +108,7 @@ function createVqvInput() {
   createInput.min = '1';
   createInput.placeholder = 'Digite um número de 5 à 50';
   createDiv.appendChild(createInput);
-  createDiv.style.padding = '18px';
+  // createDiv.style.padding = '18px';
 }
 
 function createVqvButton() {
@@ -120,7 +120,7 @@ function createVqvButton() {
   createButton.className = 'generate-board';
   createButton.innerText = 'VQV';
   createDiv.appendChild(createButton);
-  createDiv.style.padding = '18px';
+  // createDiv.style.padding = '18px';
 }
 
 function savePaintedBoard() {
@@ -235,7 +235,7 @@ function cleanButton() {
   createButton.id = 'clear-board';
   createButton.innerText = 'Limpar';
   createDiv.appendChild(createButton);
-  createDiv.style.padding = '18px';
+  createDiv.style.padding = '10px';
 }
 
 //
