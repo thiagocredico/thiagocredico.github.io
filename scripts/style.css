@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@500;600&display=swap");html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@500;600&display=swap");
+
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -7,7 +9,31 @@
     vertical-align: baseline
 }
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+:root {
+
+    --forest-green: #248232ff;
+    --pigment-green: #2ba84aff;
+    --baby-powder: #fcfffcff;
+    --platinum: #e1e6e3ff;
+    --silver: #c8cfcfff;
+    --silver-2: #abb3b3ff;
+    --battleship-gray: #919997ff;
+    --gunmetal: #2d3a3aff;
+    --rich-black: #040f0fff;
+
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block
 }
 
@@ -15,15 +41,20 @@ body {
     line-height: 1
 }
 
-ol,ul {
+ol,
+ul {
     list-style: none
 }
 
-blockquote,q {
+blockquote,
+q {
     quotes: none
 }
 
-blockquote:before,blockquote:after,q:before,q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none
 }
@@ -74,7 +105,7 @@ a {
 
 @keyframes backgroundScale {
     to {
-        background-color: #8257E6;
+        background-color: var(--pigment-green);
         transform: scale(1.1)
     }
 }
@@ -100,25 +131,25 @@ a {
 
 @media (max-width: 480px) {
     :root {
-        font-size:55%
+        font-size: 55%
     }
 }
 
 @media (max-width: 860px) {
     :root {
-        font-size:57%
+        font-size: 57%
     }
 }
 
 @media (max-width: 992px) {
     :root {
-        font-size:59%
+        font-size: 59%
     }
 }
 
 @media (max-width: 1200px) {
     :root {
-        font-size:61%
+        font-size: 61%
     }
 }
 
@@ -141,26 +172,26 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-    background: #13131F
+    background: var(--rich-black)
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #8257E6
+    background: var(--pigment-green)
 }
 
 body {
-    background-color: #13131F
+    background-color: var(--rich-black)
 }
 
 header {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #13131F
+    background-color: var(--rich-black)
 }
 
 header.open {
-    background-color: rgba(0,0,0,0.65);
+    background-color: rgba(0, 0, 0, 0.65);
     backdrop-filter: blur(10px)
 }
 
@@ -174,22 +205,22 @@ header .container {
 
 header .container .menu i {
     font-size: 2rem;
-    color: #8257E6;
+    color: var(--pigment-green);
     cursor: pointer;
     padding: 0.5rem;
     border-radius: 50%
 }
 
 header .container .menu i:hover {
-    background-color: #8257E6;
-    color: #13131F
+    background-color: var(--pigment-green);
+    color: var(--rich-black)
 }
 
 header .container h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 2.6rem;
     font-weight: bold;
-    color: #F9F9F9
+    color: var(--baby-powder)
 }
 
 header .container .toggle {
@@ -207,17 +238,17 @@ header .container .toggle input:checked+.label .box {
 
 @media (max-width: 480px) {
     header .container .toggle input:checked+.label .box {
-        transform:translateX(2rem)
+        transform: translateX(2rem)
     }
 }
 
 header .container .toggle input:checked+.label {
-    background-color: #F9F9F9
+    background-color: var(--baby-powder)
 }
 
 header .container .toggle .label {
     display: flex;
-    background: #8257E6;
+    background: var(--pigment-green);
     width: 6rem;
     border-radius: 2rem;
     padding: 0.3rem;
@@ -227,12 +258,12 @@ header .container .toggle .label {
 
 @media (max-width: 480px) {
     header .container .toggle .label {
-        width:4rem
+        width: 4rem
     }
 }
 
 header .container .toggle .label .box {
-    background-color: #13131F;
+    background-color: var(--rich-black);
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
@@ -241,7 +272,7 @@ header .container .toggle .label .box {
 
 @media (max-width: 480px) {
     header .container .toggle .label .box {
-        height:1.5rem;
+        height: 1.5rem;
         width: 1.5rem
     }
 }
@@ -252,7 +283,7 @@ header::after {
     position: absolute;
     width: 100%;
     height: 0.1rem;
-    background-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%)
+    background-image: linear-gradient(90deg, var(--pigment-green) 0%, var(--forest-green) 92.32%)
 }
 
 section#sobre {
@@ -261,7 +292,7 @@ section#sobre {
 
 @media (max-width: 480px) {
     section#sobre {
-        padding-bottom:5rem
+        padding-bottom: 5rem
     }
 }
 
@@ -272,14 +303,14 @@ section#sobre .container {
 
 section#sobre .banner {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10rem 2.5rem
 }
 
 @media (max-width: 480px) {
     section#sobre .banner {
-        flex-wrap:wrap-reverse;
+        flex-wrap: wrap-reverse;
         justify-content: center;
         padding-top: 5rem;
         text-align: center
@@ -288,7 +319,7 @@ section#sobre .banner {
 
 @media (max-width: 480px) {
     section#sobre .banner .profile {
-        text-align:center
+        text-align: center
     }
 }
 
@@ -307,19 +338,19 @@ section#sobre .banner .profile img:hover {
 
 @media (max-width: 860px) {
     section#sobre .banner .profile img {
-        width:30rem
+        width: 30rem
     }
 }
 
 @media (max-width: 660px) {
     section#sobre .banner .profile img {
-        width:19rem
+        width: 19rem
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .profile img {
-        width:60%;
+        width: 60%;
         margin-bottom: 2.5rem
     }
 }
@@ -340,20 +371,20 @@ section#sobre .banner .intro .title h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 4.2rem;
     font-weight: 500;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     line-height: 5.4rem
 }
 
 @media (max-width: 860px) {
     section#sobre .banner .intro .title h1 {
-        font-size:clamp(2rem, 5vw, 4rem) !important;
+        font-size: clamp(2rem, 5vw, 4rem) !important;
         line-height: 120% !important
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .intro .title h1 {
-        font-size:clamp(3.6rem, 10vw, 4.2rem) !important;
+        font-size: clamp(3.6rem, 10vw, 4.2rem) !important;
         line-height: 120% !important
     }
 }
@@ -362,22 +393,22 @@ section#sobre .banner .intro .title span {
     font-family: 'Poppins', sans-serif;
     font-size: 4.2rem;
     font-weight: 500;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     line-height: 5.4rem;
     display: block;
-    color: #8257E6
+    color: var(--pigment-green)
 }
 
 @media (max-width: 860px) {
     section#sobre .banner .intro .title span {
-        font-size:clamp(2rem, 5vw, 4rem) !important;
+        font-size: clamp(2rem, 5vw, 4rem) !important;
         line-height: 120% !important
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .intro .title span {
-        font-size:clamp(3.6rem, 10vw, 4.2rem) !important;
+        font-size: clamp(3.6rem, 10vw, 4.2rem) !important;
         line-height: 130% !important
     }
 }
@@ -386,19 +417,19 @@ section#sobre .banner .intro .title p {
     font-family: 'DM Sans', sans-serif;
     font-size: 2rem;
     font-weight: 500;
-    color: #828282
+    color: var(--baby-powder)
 }
 
 @media (max-width: 860px) {
     section#sobre .banner .intro .title p {
-        font-size:clamp(1.4rem, 2.3vw, 1.8rem) !important;
+        font-size: clamp(1.4rem, 2.3vw, 1.8rem) !important;
         line-height: 120% !important
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .intro .title p {
-        font-size:clamp(1rem, 8vw, 1.8rem) !important;
+        font-size: clamp(1rem, 8vw, 1.8rem) !important;
         line-height: 150% !important
     }
 }
@@ -410,7 +441,7 @@ section#sobre .banner .intro .actions {
 
 @media (max-width: 480px) {
     section#sobre .banner .intro .actions {
-        justify-content:center;
+        justify-content: center;
         flex-wrap: wrap
     }
 }
@@ -419,9 +450,9 @@ section#sobre .banner .intro .actions a {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     padding: 1.2rem 2.7rem;
-    background-image: linear-gradient(90deg, rgba(130,87,230,0.8) .2%, rgba(121,48,190,0.648) 100%);
+    background-image: linear-gradient(90deg, var(--pigment-green) .2%, var(--forest-green) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -431,17 +462,17 @@ section#sobre .banner .intro .actions a {
 
 section#sobre .banner .intro .actions a:nth-child(2) {
     background-image: none;
-    border: 0.1rem solid #8257E6
+    border: 0.1rem solid var(--pigment-green)
 }
 
 section#sobre .banner .intro .actions a:hover {
-    background-image: linear-gradient(90deg, rgba(121,48,190,0.648) 100%, rgba(130,87,230,0.8) .2%);
+    background-image: linear-gradient(90deg, var(--forest-green) 100%, var(--pigment-green) .2%);
     transform: scale(0.95)
 }
 
 @media (max-width: 860px) {
     section#sobre .banner .intro .actions a {
-        font-size:clamp(1.2rem, 2vw, 1rem) !important;
+        font-size: clamp(1.2rem, 2vw, 1rem) !important;
         padding: 1.2rem 1.5rem !important;
         border-radius: 2rem
     }
@@ -449,14 +480,14 @@ section#sobre .banner .intro .actions a:hover {
 
 @media (max-width: 660px) {
     section#sobre .banner .intro .actions a {
-        font-size:clamp(1.1rem, 1.5vw, 1rem) !important;
+        font-size: clamp(1.1rem, 1.5vw, 1rem) !important;
         padding: 1rem 1rem !important
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .intro .actions a {
-        width:100% !important;
+        width: 100% !important;
         font-size: 1.6rem !important;
         padding: 1.4rem 2.5rem !important
     }
@@ -472,12 +503,12 @@ section#sobre .about {
 section#sobre .about h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 3.2rem;
-    color: #F9F9F9;
+    color: var(--silver);
     font-weight: 600
 }
 
 section#sobre .about p {
-    color: #828282;
+    color: var(--silver-2);
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
     text-align: center;
@@ -487,13 +518,13 @@ section#sobre .about p {
 
 @media (max-width: 1200px) {
     section#sobre .about p {
-        width:100%
+        width: 100%
     }
 }
 
 @media (max-width: 660px) {
     section#sobre .about p {
-        font-size:1.6rem
+        font-size: 1.6rem
     }
 }
 
@@ -510,14 +541,14 @@ section#skills .skills .container {
 section#skills .skills .container h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 3.2rem;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     font-weight: 600;
     margin-bottom: 10rem
 }
 
 @media (max-width: 480px) {
     section#skills .skills .container h2 {
-        margin-bottom:5rem
+        margin-bottom: 5rem
     }
 }
 
@@ -530,7 +561,7 @@ section#skills .skills .container .cards {
 
 @media (max-width: 992px) {
     section#skills .skills .container .cards {
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         justify-content: center
     }
 }
@@ -555,7 +586,7 @@ section#skills .skills .container .cards .box p {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
-    color: #8257E6;
+    color: var(--pigment-green);
     margin-bottom: 1.5rem
 }
 
@@ -569,7 +600,7 @@ section#skills .skills .container .cards .box::after {
     position: absolute;
     width: 100%;
     height: 0.3rem;
-    background-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%);
+    background-image: linear-gradient(90deg, var(--pigment-green) 0%, var(--forest-green) 92.32%);
     bottom: -0.1rem;
     left: 0
 }
@@ -595,7 +626,7 @@ section#contacts .contacts .container {
 section#contacts .contacts .container h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 3.2rem;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     font-weight: 600;
     margin-bottom: 10rem
 }
@@ -634,22 +665,22 @@ section#contacts .contacts .icons .icon a:nth-child(2) {
 section#contacts .contacts .icons .icon a:last-child p {
     font-size: 1.6rem;
     font-weight: 500;
-    color: #828282
+    color: var(--battleship-gray)
 }
 
 section#contacts .contacts .icons .icon a p {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
-    color: #F9F9F9
+    color: var(--baby-powder)
 }
 
 section#contacts .contacts .icons .icon .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #212121;
-    border-radius: 50%
+    /* background-color: #212121;
+    border-radius: 50% */
 }
 
 section#contacts .contacts .icons .icon .box img {
@@ -665,7 +696,7 @@ section#projects .container {
 section#projects .container h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 3.2rem;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     font-weight: 600;
     text-align: center
 }
@@ -674,10 +705,11 @@ section#projects .container h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 2.4rem;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     position: relative;
     display: inline-block;
-    margin-block:10rem 5rem}
+    margin-block: 10rem 5rem
+}
 
 section#projects .container h3::after {
     content: "";
@@ -687,7 +719,7 @@ section#projects .container h3::after {
     height: 0.3rem;
     border-radius: 2rem;
     margin-top: 0.8rem;
-    background-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%)
+    background-image: linear-gradient(90deg, var(--pigment-green) 0%, var(--forest-green) 92.32%)
 }
 
 section#projects .container .cards-projects {
@@ -695,7 +727,10 @@ section#projects .container .cards-projects {
     gap: 3.75rem;
     flex-wrap: wrap;
     align-items: center
+   
 }
+
+
 
 section#projects .container .cards-projects .box {
     transition: 0.3s;
@@ -710,7 +745,7 @@ section#projects .container .cards-projects .box:hover {
 
 @media (max-width: 480px) {
     section#projects .container .cards-projects .box:hover {
-        transform:scale(1.05)
+        transform: scale(1.05)
     }
 }
 
@@ -727,7 +762,7 @@ section#projects .container .cards-projects .box .cover::after {
     width: 100%;
     height: 0.3rem;
     bottom: 0.1rem;
-    background-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%)
+    background-image: linear-gradient(90deg, var(--pigment-green) 0%, var(--forest-green) 92.32%)
 }
 
 section#projects .container .cards-projects .box .cover::before {
@@ -736,7 +771,7 @@ section#projects .container .cards-projects .box .cover::before {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.65)
+    background-color: rgba(0, 0, 0, 0.65)
 }
 
 section#projects .container .cards-projects .box .cover .details {
@@ -754,7 +789,7 @@ section#projects .container .cards-projects .box .cover .details p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     margin-bottom: 1rem
 }
 
@@ -776,13 +811,13 @@ section#projects .container .cards-projects .box .description {
 
 @media (max-width: 860px) {
     section#projects .container .cards-projects .box .description {
-        width:88%
+        width: 88%
     }
 }
 
 @media (max-width: 480px) {
     section#projects .container .cards-projects .box .description {
-        width:90%
+        width: 90%
     }
 }
 
@@ -790,23 +825,24 @@ section#projects .container .cards-projects .box .description p {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
-    color: #F9F9F9
+    color: var(--baby-powder)
 }
 
 section#projects .container .cards-projects .box .description a {
     display: inline-block;
     width: fit-content;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0.5rem 1.5rem;
-    border: 0.1rem solid #8257E6;
+    border: 0.1rem solid var(--pigment-green);
     border-radius: 2rem;
     animation: backgroundScale 1s 0.5s forwards
 }
 
-section#projects .container .cards-projects .box:hover .details,section#projects .container .cards-projects .box:hover .cover::before {
+section#projects .container .cards-projects .box:hover .details,
+section#projects .container .cards-projects .box:hover .cover::before {
     display: none;
     visibility: hidden;
     animation: fade 1s
@@ -820,13 +856,13 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 992px) {
     section#projects .container .cards-projects .box {
-        width:40vw
+        width: 40vw
     }
 }
 
 @media (max-width: 480px) {
     section#projects .container .cards-projects .box {
-        width:100%
+        width: 100%
     }
 }
 
@@ -845,7 +881,7 @@ section#projects .container .cards-projects .box:hover .description {
     position: fixed;
     width: 100%;
     z-index: 200;
-    background-color: rgba(0,0,0,0.65);
+    background-color: rgba(0, 0, 0, 0.65);
     backdrop-filter: blur(10px);
     top: 9%;
     height: 100vh;
@@ -859,14 +895,14 @@ section#projects .container .cards-projects .box:hover .description {
 }
 
 .menuOpen h2 {
-    color: #8257E6;
+    color: var(--pigment-green);
     font-weight: 600;
     font-size: 3.8rem
 }
 
 @media (max-width: 660px) {
     .menuOpen h2 {
-        font-size:clamp(1.6rem, 6vw, 3rem) !important
+        font-size: clamp(1.6rem, 6vw, 3rem) !important
     }
 }
 
@@ -881,26 +917,26 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 480px) {
     .menuOpen nav {
-        gap:7.5rem
+        gap: 7.5rem
     }
 }
 
 .menuOpen nav a {
     cursor: pointer;
     text-decoration: none;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     font-size: 3.8rem;
     transition: 0.3s
 }
 
 .menuOpen nav a:hover {
-    color: #8257E6;
+    color: var(--pigment-green);
     transform: scale(1.4)
 }
 
 @media (max-width: 480px) {
     .menuOpen nav a {
-        font-size:3rem
+        font-size: 3rem
     }
 }
 
@@ -910,7 +946,7 @@ section#projects .container .cards-projects .box:hover .description {
     width: 75%;
     padding: 2.5rem;
     gap: 2.5rem;
-    background-color: #13131F;
+    background-color: var(--rich-black);
     border-radius: 1rem;
     animation: fade 1s;
     position: fixed;
@@ -922,7 +958,7 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 860px) {
     .modal {
-        width:85%;
+        width: 85%;
         height: 80%;
         top: 53%
     }
@@ -930,7 +966,7 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 480px) {
     .modal {
-        width:85%;
+        width: 85%;
         height: 80%;
         top: 55%
     }
@@ -943,19 +979,19 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 992px) {
     .modal .top {
-        flex-wrap:wrap-reverse
+        flex-wrap: wrap-reverse
     }
 }
 
 @media (max-width: 860px) {
     .modal .top {
-        gap:0
+        gap: 0
     }
 }
 
 @media (max-width: 992px) {
     .modal .top .video {
-        display:flex;
+        display: flex;
         justify-content: center
     }
 }
@@ -967,25 +1003,25 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 1200px) {
     .modal .top .video iframe {
-        width:40rem
+        width: 40rem
     }
 }
 
 @media (max-width: 992px) {
     .modal .top .video iframe {
-        width:70rem
+        width: 70rem
     }
 }
 
 @media (max-width: 860px) {
     .modal .top .video iframe {
-        width:53rem
+        width: 53rem
     }
 }
 
 @media (max-width: 660px) {
     .modal .top .video iframe {
-        width:38rem;
+        width: 38rem;
         height: 20rem;
         margin-top: 2.5rem
     }
@@ -993,7 +1029,7 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 480px) {
     .modal .top .video iframe {
-        display:none
+        display: none
     }
 }
 
@@ -1013,20 +1049,20 @@ section#projects .container .cards-projects .box:hover .description {
     font-family: 'Poppins', sans-serif;
     font-size: 3.2rem;
     font-weight: 500;
-    color: #8257E6
+    color: var(--pigment-green)
 }
 
 .modal .top .info .title i {
     cursor: pointer;
     font-size: 2.8rem;
-    color: #8257E6
+    color: var(--pigment-green)
 }
 
 .modal .top .info p {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
-    color: #828282;
+    color: var(--battleship-gray);
     line-height: 140%;
     padding: 1rem 0
 }
@@ -1035,7 +1071,7 @@ section#projects .container .cards-projects .box:hover .description {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
-    color: #8257E6
+    color: var(--pigment-green)
 }
 
 .modal .links {
@@ -1045,7 +1081,7 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 480px) {
     .modal .links {
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         gap: 1.25rem
     }
 }
@@ -1053,18 +1089,18 @@ section#projects .container .cards-projects .box:hover .description {
 .modal .links a {
     display: inline-block;
     width: fit-content;
-    color: #F9F9F9;
+    color: var(--baby-powder);
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
     padding: 1rem 1.5rem;
-    background-image: linear-gradient(90deg, rgba(130,87,230,0.8) .2%, rgba(121,48,190,0.648) 100%);
+    background-image: linear-gradient(90deg, var(--pigment-green) .2%, var(--forest-green) 100%);
     border-radius: 0.5rem
 }
 
 @media (max-width: 480px) {
     .modal .links a {
-        width:100%;
+        width: 100%;
         text-align: center
     }
 }
@@ -1073,7 +1109,7 @@ body.transparent::after {
     content: "";
     width: 100%;
     height: 1000%;
-    background-color: rgba(0,0,0,0.65);
+    background-color: rgba(0, 0, 0, 0.65);
     backdrop-filter: blur(3px);
     display: block;
     top: 0;
@@ -1084,45 +1120,56 @@ body.transparent::after {
 }
 
 body.light-mode {
-    background-color: #F9F9F9
+    background-color: var(--baby-powder)
 }
 
 body.light-mode header {
-    background-color: #13131F
+    background-color: var(--rich-black)
 }
 
 body.light-mode header h2 {
-    color: #F9F9F9 !important
+    color: var(--baby-powder) !important
 }
 
 body.light-mode .banner h1 {
-    color: #13131F !important
+    color: var(--rich-black) !important
 }
 
 body.light-mode .banner span {
-    color: #13131F !important
+    color: var(--rich-black) !important
 }
 
 body.light-mode .banner .actions a:nth-child(2) {
-    color: #13131F !important
+    color: var(--rich-black) !important
 }
 
 body.light-mode .banner .actions a:nth-child(2):hover {
-    color: #F9F9F9 !important
+    color: var(--baby-powder) !important
 }
 
-body.light-mode h2,body.light-mode h3 {
-    color: #13131F !important
+body.light-mode h2,
+body.light-mode h3 {
+    color: var(--rich-black) !important
 }
 
 body.light-mode .contacts p {
-    color: #13131F !important
+    color: var(--rich-black) !important
 }
 
 body.light-mode .modal h2 {
-    color: #8257E6 !important
+    color: var(--pigment-green) !important
 }
 
 body.light-mode .menuOpen h2 {
-    color: #F9F9F9 !important
+    color: var(--baby-powder) !important
+}
+
+ion-icon {
+    font-size: 60px;
+    color: var(--pigment-green);
+    /* --ionicon-stroke-width: 16px; */
+  }
+
+.mini-languages >ion-icon {
+    font-size:x-large;
 }
