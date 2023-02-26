@@ -138,11 +138,14 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'Meme Generator',
       date: '30 de Julho de 2021',
       languages: ['html5', 'css3', 'javascript', ],
-      description: "A Barber House é uma landing page mobile-first que reúne os conceitos fundamentais de HTML5, CSS3 e JavaScript. Ela possui animações para fazer surgir gradualmente cada section no decorrer do scroll. Além de ser totalmente responsiva para diferentes tamanhos de tela, é uma página facilmente customizável, pois todas as cores utilizadas estão armazenadas em variáveis dentro do CSS.",
+      description: `Meme generator é um projeto desenvolvido como requisito bônus pela Trybe. o desenvolvimento de uma página Web que permita o upload de uma imagem e a inserção de um texto sobre ela, estilizado de forma apropriada.
+      O projeto aborda conceitos fundamentais de manipulação de HTML5, CSS3 e JavaScript. 
+      • Como feature a página permite que o usuário selecione em seu próprio dispositivo uma imagem de fundo para o meme, e também disponibiliza 4 imagens pré-definidas.
+      • O usuário deve escrever o texto a ser usado no meme e escolher entre os estilos pré-definidos de borda.`,
       imgSrc: './assets/projects/memegenerator.png',
       videoSrc: 'https://streamable.com/e/6ci737',
-      linkedin: 'https://www.linkedin.com/posts/rhuanbello_opentowork-css-html-activity-6827021119288156160-qT7i',
-      repository: 'https://rhuanbello.github.io/nlw6-origin/',
+      // linkedin: 'https://www.linkedin.com/posts/rhuanbello_opentowork-css-html-activity-6827021119288156160-qT7i',
+      // repository: 'https://rhuanbello.github.io/nlw6-origin/',
       site: './sd-029-a-project-meme-generator/index.html'
     },
     {
