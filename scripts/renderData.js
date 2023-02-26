@@ -138,40 +138,47 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'Meme Generator',
       date: '30 de Julho de 2021',
       languages: ['html5', 'css3', 'javascript', ],
-      description: `Meme generator é um projeto desenvolvido como requisito bônus pela Trybe. o desenvolvimento de uma página Web que permita o upload de uma imagem e a inserção de um texto sobre ela, estilizado de forma apropriada.
-      O projeto aborda conceitos fundamentais de manipulação de HTML5, CSS3 e JavaScript. 
-      • Como feature a página permite que o usuário selecione em seu próprio dispositivo uma imagem de fundo para o meme, e também disponibiliza 4 imagens pré-definidas.
+      description: `Meme generator é um projeto desenvolvido como requisito bônus pela Trybe. o desenvolvimento de uma página Web que permita o upload de uma imagem e a inserção de um texto sobre ela, estilizado de forma apropriada.<br>
+      O projeto aborda conceitos fundamentais de manipulação de HTML5, CSS3 e JavaScript. <br>
+      • Como feature a página permite que o usuário selecione em seu próprio dispositivo uma imagem de fundo para o meme, e também disponibiliza 4 imagens pré-definidas; <br>
       • O usuário deve escrever o texto a ser usado no meme e escolher entre os estilos pré-definidos de borda.`,
       imgSrc: './assets/projects/memegenerator.png',
-      videoSrc: 'https://streamable.com/e/6ci737',
+      videoSrc: 'https://streamable.com/e/7ao708',
       // linkedin: 'https://www.linkedin.com/posts/rhuanbello_opentowork-css-html-activity-6827021119288156160-qT7i',
       // repository: 'https://rhuanbello.github.io/nlw6-origin/',
       site: './sd-029-a-project-meme-generator/index.html'
     },
-    {
-      id: 8,
-      type: 1,
-      title: 'Lessons Learned',
-      date: '07 de Julho de 2021',
-      languages: ['html5', 'css3', 'javascript', ],
-      description: "Minha primeira participação da Next Leve Week da Rocketseat. <br><br> Desenvolvemos do zero uma aplicação de gerenciamento de perguntas anônimas, esse foi meu primeiro contato com o Node.js, que apesar de não ser o meu foco, foi extremamente interessante conhecer.",
-      imgSrc: './assets/projects/lessonslearned.png',
-      videoSrc: 'https://streamable.com/e/4ozfu5',
-      linkedin: 'https://www.linkedin.com/posts/rhuanbello_opentowork-css-html-activity-6818692643816665088-FxZJ',
-      repository: 'https://github.com/rhuanbello/nlw6-discover',
-      site: './sd-029-a-project-lessons-learned/index.html'
-    },
+    // {
+    //   id: 8,
+    //   type: 1,
+    //   title: 'Lessons Learned',
+    //   date: '07 de Julho de 2021',
+    //   languages: ['html5', 'css3', ],
+    //   description: `Meu primeiro contato com HTML5 e CSS3.<br><br>
+    //   A página proposta foi um portfálio simples, ensinando a motar um index.html e style.css e conceitos de html semântico e suas tags.
+    //    `,
+    //   imgSrc: './assets/projects/lessonslearned.png',
+    //   videoSrc: 'https://streamable.com/e/4ozfu5',
+    //   // linkedin: 'https://www.linkedin.com/posts/rhuanbello_opentowork-css-html-activity-6818692643816665088-FxZJ',
+    //   // repository: 'https://github.com/rhuanbello/nlw6-discover',
+    //   site: './sd-029-a-project-lessons-learned/index.html'
+    // },
     {
       id: 9,
       type: 1,
       title: 'Color Guess',
-      date: 'Em desenvolvimento',
+      date: '30 de Julho de 2021',
       languages: ['html5', 'css3', 'javascript', ],
-      description: "Em desenvolvimento",
+      description: `Color Guess é um projeto desenvolvido como requisito bônus pela Trybe. Trata-se do desenvolvimento de uma página Web que mostra aleatóriamente uma cor no formato texto rgb e uma paleta de cores também aleatórias. O usuário deve escolher entre as cores qual é a cor apresentada como texto.<br>
+      O projeto aborda conceitos de manipulação de HTML5, CSS3 e JavaScript, DOM e Local Storage. <br>
+      • Como feature a página exolha entre as cores apresentadas; <br>
+      • Caso a pessoa usuária acerte uma mensagem de "Acertou!" é apersentada e 3 pontos são somados. <br>
+      • Caso a pessoa usuária erre uma mensagem de "Errou! Tente novamente!" é apresentada e nada acontece. <br>
+      • Para trocar as cores da palheta, existe um botão "Reset game!".`,
       imgSrc: './assets/projects/colorguess.png',
-      videoSrc: 'https://streamable.com/e/u6x84w',
-      linkedin: '',
-      repository: 'https://github.com/rhuanbello/naped',
+      videoSrc: 'https://streamable.com/e/xvcpbg',
+      // linkedin: '',
+      // repository: 'https://github.com/rhuanbello/naped',
       site: './sd-029-a-project-color-guess/index.html'
     },
     {
@@ -180,37 +187,39 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'Carta Misteriosa',
       date: 'Em desenvolvimento',
       languages: ['html5', 'css3', 'javascript', ],
-      description: "Em desenvolvimento",
+      description: `Carta Misteriosa é um projeto desenvolvido como requisito bônus pela Trybe. Trata-se do desenvolvimento de uma página Web que permite que a pessoa usuária digite um texto que é dividido em palavras e estilizadas como se fossem recortes de jornais e revistas para a criação de uma carta anônima. A pessoa usuária ainda pode clicar nas palavras individualemnte para mudar o estilo aleatóriamente.<br>
+      O projeto aborda conceitos de manipulação de HTML5, CSS3 e JavaScript, DOM. <br>`,
       imgSrc: './assets/projects/cartamisteriosa.png',
-      videoSrc: 'https://streamable.com/e/dyteys',
-      linkedin: '',
-      repository: 'https://github.com/rhuanbello/clone-mercadoLivre',
+      videoSrc: 'https://streamable.com/e/f39mxy',
+      // linkedin: '',
+      // repository: 'https://github.com/rhuanbello/clone-mercadoLivre',
       site: './sd-029-a-project-carta-misteriosa/index.html'
     },
-    {
-      id: 11,
-      type: 1,
-      title: 'Tech Gallery',
-      languages: ['html5', 'css3', ],
-      date: '04 de Setembro de 2021',
-      description: "Esse é um projeto que realizei para o meu primeiro checkpoint da disciplina Front-End I da formação Certified Tech Developer na Digital House Brasil, em parceria com Mercado Livre e a Globant. <br><br> Neste checkpoint foi pedido um página sobre minha cidade, onde pudesse ser praticado os conceitos da propriedade position do CSS3. Aqui foi bem interessante trabalhar com contraste de cores e altura de linha para oferecer uma boa leitura ao usuário, além de praticar posicionamento sem precisar necessariamente de Flexbox ou CSS Grid Layout.",
-      imgSrc: './assets/projects/techgallery.png',
-      videoSrc: 'https://streamable.com/e/cwyvwh',
-      linkedin: '',
-      repository: 'https://github.com/rhuanbello/rioturism',
-      site: './exercise-tech-gallery/tech-gallery.html'
-    },
+    // {
+    //   id: 11,
+    //   type: 1,
+    //   title: 'Tech Gallery',
+    //   languages: ['html5', 'css3', ],
+    //   date: '04 de Setembro de 2021',
+    //   description: "Esse é um projeto que realizei para o meu primeiro checkpoint da disciplina Front-End I da formação Certified Tech Developer na Digital House Brasil, em parceria com Mercado Livre e a Globant. <br><br> Neste checkpoint foi pedido um página sobre minha cidade, onde pudesse ser praticado os conceitos da propriedade position do CSS3. Aqui foi bem interessante trabalhar com contraste de cores e altura de linha para oferecer uma boa leitura ao usuário, além de praticar posicionamento sem precisar necessariamente de Flexbox ou CSS Grid Layout.",
+    //   imgSrc: './assets/projects/techgallery.png',
+    //   videoSrc: 'https://streamable.com/e/cwyvwh',
+    //   linkedin: '',
+    //   repository: 'https://github.com/rhuanbello/rioturism',
+    //   site: './exercise-tech-gallery/tech-gallery.html'
+    // },
     {
       id: 12,
       type: 1,
       title: 'Reclame Aqui - Formulário Clone',
       languages: ['html5', 'css3', 'javascript', ],
       date: '30 de Julho de 2021',
-      description: "Cultflix é um projeto que nasce desse fascínio e me convida a pôr em prática todo o aprendizado adquirido no Bootcamp HTML Web Developer da Digital Innovation One Inc. Ter a oportunidade de criar a minha própria versão de uma Plataforma de Streaming e ter a liberdade de inserir meus filmes favoritos é extremamente gratificante.",
+      description: `"Reclame Aqui - Formulário Clone" é um projeto desevolvido como atividade extra durante mentoria da Trybe. Foi desenvolvido como prática de formulários. <br><br>
+      • O projeto inclui a utilização de bootstrap just-validate  e lógica de validação de CPF.`,
       imgSrc: './assets/projects/clonereclameaqui.png',
-      videoSrc: 'https://streamable.com/e/1tsfrm',
-      linkedin: 'https://www.linkedin.com/posts/rhuanbello_ui-opentowork-css-activity-6821251240840835072-6GP0',
-      repository: 'https://github.com/rhuanbello/cultflix',
+      videoSrc: 'https://streamable.com/e/c9xl7i',
+      // linkedin: 'https://www.linkedin.com/posts/rhuanbello_ui-opentowork-css-activity-6821251240840835072-6GP0',
+      // repository: 'https://github.com/rhuanbello/cultflix',
       site: './exercise-forms/index.html'
     },
     // {
