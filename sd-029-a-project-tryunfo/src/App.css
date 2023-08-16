@@ -1,0 +1,40 @@
+body {
+    background-attachment: fixed;
+  
+    /* Créditos: https://bgjar.com/animated-shape  */
+    /* background-image: url('../images/background.svg'); */
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black(42, 42, 42);
+  
+  }
+  
+  .card-list {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-container {
+    background-color: aliceblue;
+    border-radius: 16px;
+    box-shadow: 3px 3px black;
+    color: #053b7e;
+    display: flex;
+    gap: 16px;
+    height: 500px;
+    justify-content: space-around;
+    padding: 16px;
+    width: 50%;
+  }
+  

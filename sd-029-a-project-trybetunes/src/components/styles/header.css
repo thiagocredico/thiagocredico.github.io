@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400&display=swap');
+
+/* [data-testid="header-component"] {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+
+a:visited {
+    text-decoration: none
+}
+
+a {
+    color: currentColor;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+[data-testid="header-component"] {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 16px; */
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #4a5544;
+}
+
+[alt="logo"] {
+    display: flex;
+    width: 170.81;
+    width: 170.81px;
+    height: 95.71px;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 33.59px;
+    align-self: flex-start;
+
+}
+
+/* [data-testid="header-component"]::nth-child(3) {
+    justify-content: space-between;
+} */
+
+/* [data-testid="header-component"]:nth-child(2):nth-child(2) {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+} */
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 61px;
+    /* align-items: flex-start; */
+    align-self: flex-start;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 28px;
+    align-self: flex-start;
+
+}
+
+.photo {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40px;
+    height: 40px;
+    margin-right: 13px;
+    border-radius: 50%;
+    margin-left: 40px;
+
+}
+
+.icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 23px;
+    height: 23px;
+    margin-right: 23px;
+    /* vertical-align: left; */
+
+}
+
+.search,
+.fav,
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin-left: 38px;
+}
+
+[data-testid="link-to-profile"],
+[data-testid="link-to-favorites"],
+[data-testid="link-to-search"] {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 28px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

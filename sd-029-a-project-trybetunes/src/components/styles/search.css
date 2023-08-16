@@ -1,0 +1,267 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+[data-testid="header-component"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: white;
+    align-self: baseline;
+    height: 100%;
+    width: 250px;
+    justify-content: space-between;
+    z-index: 5;
+
+}
+
+[data-testid="page-search"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(123.66deg, #003BE5 12.08%, #00D5E2 86.52%);
+    align-self: initial;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: calc(100% - 250px);
+    height: 234px;
+    z-index: 2;
+
+}
+
+
+[data-testid="search-artist-button"] {
+    width: 114px;
+    height: 40px;
+    background: #00D5E2;
+    border-radius: 23px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    /* line-height: 14px; */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    outline: none;
+    padding: 0;
+    border-color: none;
+    border: none;
+    margin-left: 9px;
+    z-index: 1;
+        position: absolute;
+    left: 704px;
+top: 97px;
+
+}
+
+[data-testid="search-artist-input"] {
+    width: 400px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 23px;
+    font-family: 'Epilogue';
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 14px; */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255);
+    text-align: left;
+    text-indent: 19px;
+    border: none;
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+    left: 304px;
+    top: 97px;
+
+
+}
+
+[data-testid="search-artist-input"]::placeholder {
+    /* font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; */
+    color: rgba(255, 255, 255);
+}
+
+[data-testid="search-artist-input"]:focus {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    outline: 0;
+    /* color: transparent; */
+
+}
+
+[data-testid="search-artist-input"]:active {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* color: #FFFFFF; */
+    outline: 0;
+    /* color: transparent; */
+
+}
+
+[data-testid="search-artist-input"]:focus::-webkit-input-placeholder {
+    color: transparent;
+    /* border: 1px solid #003BE5; */
+    outline: 0;
+    opacity: 1;
+}
+
+[data-testid="search-artist-input"]input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+[data-testid="page-search"]:before {
+    border: 2.20567px solid #00D5E2;
+    border-radius: 50%;
+    content: "";
+    width: 597px;
+    height: 597px;
+    position: absolute;
+    left: 772px;
+    top: -391px;
+    z-index: -1;
+}
+
+[data-testid="page-search"]:after {
+    background: #003BE5;
+    filter: blur(35.5px);
+    border-radius: 50%;
+    content: "";
+    height: 431px;
+    left: 458px;
+    position: absolute;
+    top: -272px;
+    /* transform: translate(-50%, -50%); */
+    width: 431px;
+    z-index: -2;
+    color: rgba(0, 59, 229, 1)
+}
+
+[data-testid="page-search"]>form>section {
+    display: flex;
+
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background: #EFF3F9;
+    /* align-self: initial; */
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+    top: 234px;
+    width: 100%;
+    /* height: calc(100% - 234px); */
+    z-index: 2;
+    height: 486px;
+    overflow: auto;
+}
+
+[data-testid="page-search"]>form>section>section {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* background: #EFF3F9; */
+    /* align-self: initial; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* top: 234px;
+    width:100% ; */
+    /* height: calc(100% - 234px); */
+    z-index: 2;
+    /* height: 486px; */
+    overflow: auto;
+    font-size: 12.07px;
+    font-weight: 700;
+    color: #3D495C;
+}
+
+
+[data-testid="page-search"]>form>.cyanoBars {
+    height: 224px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 47px;
+    top: 34px;
+    z-index: -2;
+    filter: blur(5px);
+
+}
+
+[data-testid="page-search"]>form>.blueBars {
+    height: 224px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 799px;
+    top: 97px;
+    z-index: -2;
+    filter: blur(5px);
+}
+
+[data-testid="albumImage"] {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-bottom: 13.45px;
+    margin-top: 25px;
+
+}
+
+[data-testid="albumName"] {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.0698px;
+    line-height: 150%;
+    max-width: 200px;
+   min-height: 37px;
+
+
+    color: #3D495C;
+
+}
+
+[data-testid="artistName"] {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.05234px;
+    line-height: 150%;  
+    color: #3D495C;
+
+}
+
+.search-result {
+    font-family: 'Epilogue';
+font-style: italic;
+font-weight: 300;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+
+color: #003BE5;
+}

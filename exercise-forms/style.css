@@ -1,0 +1,156 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+header{
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+  display: inline-block;
+}
+
+.input-search{
+  margin: 0px 20px;
+  padding: 10px;
+  border-style: none;
+  background-color: rgb(241, 241, 241);
+  width: 30%;
+  border-radius: 6px;
+}
+
+.button{
+  height: 40px;
+  padding: 0px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+
+}
+
+.register{
+  background-color: rgb(2, 121, 62);
+  border-style: none;
+  color: white;
+}
+
+.login{
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.title-subtitle{
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2{
+  font-size: 37px;
+}
+
+h3{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight:lighter;
+}
+
+main{
+  width: 902px;
+  margin: 0px auto;
+}
+
+.form-required{
+  border: 1px solid lightgray;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.asterisco{
+  color: red;
+  font-weight:bold;
+}
+
+form{
+  padding: 30px;
+  border: 1px solid lightgray;
+
+}
+
+.icon{
+  color: rgb(0, 133, 55);
+}
+
+.title-form{
+  font-weight: bold;
+  color: rgb(113, 113, 113);
+  margin-top: 20px;
+}
+
+.container-input{
+  margin-top: 20px;
+  /* display: flex; */
+}
+
+.text-label{
+  font-weight: bold;
+}
+
+.input-style{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  box-sizing:border-box;
+  border-radius: 6px;
+  margin-top: 7px;
+  font-size: 17px;
+}
+
+.input-radio{
+  margin-top: 20px;
+}
+
+.container-radio{
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  /* display: inline-block; */
+}
+
+.container-att{
+  margin-top: 20px;
+}
+
+.att-text{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container-term{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-cadastrar{
+  width: 40%;
+  border-style: none;
+  margin-top: 20px;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-radio-flex {
+  display: flex;
+}
+
+.container-3 {
+  /* background-color: orange; */
+  width: 30%;
+}

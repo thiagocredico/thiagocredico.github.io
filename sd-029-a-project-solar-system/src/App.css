@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300&family=Nabla&family=Press+Start+2P&display=swap') ;
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: Epilogue , sans-serif;
+}
+
+.title {
+  align-items: center;
+  background: url('./images/LogoTitle.svg') no-repeat center center;
+  color: transparent;
+  font-size: 67.95px;
+  font-weight: 200;
+  height: 195px;
+  letter-spacing: -0.27px;
+  line-height: 209px;
+  position: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 9999;
+}
+
+[ data-testid = 'solar-system' ] {
+  background: url('./images/Line.svg') repeat-x 0% 63%;
+  color: rgb(216, 216, 216);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+[ data-testid = 'solar-system' ] > header {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+[ data-testid = 'planet-card' ] {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+[ data-testid = 'planet-name' ] {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+[ alt = 'Planeta Mercúrio' ] {
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 41px;
+}
+
+[ alt = 'Planeta Vênus' ] {
+  align-self: center;
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 102px;
+}
+
+[ alt = 'Planeta Terra' ] {
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 106px;
+}
+
+[ alt = 'Planeta Marte' ] {
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 66px;
+}
+
+[ alt = 'Planeta Júpiter' ] {
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 277px;
+}
+
+[ alt = 'Planeta Saturno' ] {
+  margin-bottom: auto;
+  margin-top: auto;
+  transform: rotate(-16.53deg);
+  width: 282px;
+}
+
+[ alt = 'Planeta Urano' ] {
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 144px;
+}
+
+[ alt = 'Planeta Netuno' ] {
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 144px;
+}
+
+[ data-testid = 'missions' ] {
+  align-items: center;
+  background: #ffffff2a;
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.9);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Epilogue , sans-serif;
+  gap: 20px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1092px;
+  padding-bottom: 30px;
+  position: center;
+  width: 1098px;
+}
+
+[ data-testid = 'missions' ] img {
+  margin-bottom: auto;
+  margin-right: 10px;
+  margin-top: auto;
+}
+
+
+[ data-testid = 'mission-card' ] {
+  align-items: center;
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 28px;
+  justify-content: space-around;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  min-height: 192px;
+  mix-blend-mode: hard-light;
+  overflow: hidden;
+  width: 496px;
+}
+
+[ data-testid = 'mission-name' ] {
+  border-bottom: 1px solid white;
+  margin: 0;
+  padding: 24px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+[ data-testid = 'mission-destination' ] {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  width: 120px;
+}
+
+[ data-testid = 'mission-year' ] {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  width: 45px;
+}
+
+[ data-testid = 'mission-country' ] {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 150px;
+}

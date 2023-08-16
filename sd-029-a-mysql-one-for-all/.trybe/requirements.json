@@ -1,0 +1,108 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "01 - Normalize as tabelas para a 3ª Forma Normal",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "02 - Exibe as estatísticas musicais",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "03 - Exibe o histórico de reprodução para cada pessoa usuária",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "04 - Exibe a condição da pessoa usuária se está ativa ou inativa",
+      "enabled": true,
+      "identifier": null,
+      "order": 4,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "05 - Exibe top 2 hits mais tocados no momento",
+      "enabled": true,
+      "identifier": null,
+      "order": 5,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "06 - Exibe o relatório de faturamento da empresa",
+      "enabled": true,
+      "identifier": null,
+      "order": 6,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "07 - Exibe uma relação de todos os álbuns produzidos por cada artista",
+      "enabled": true,
+      "identifier": null,
+      "order": 7,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "08 - Exibe uma relação de álbuns produzidos pela artista Elis Regina",
+      "enabled": true,
+      "identifier": null,
+      "order": 8,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "09 - Exibe a quantidade de músicas no histórico de Barbara Liskov",
+      "enabled": true,
+      "identifier": null,
+      "order": 9,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "10 - Normalize a tabela de canções favoritas para a 3ª Forma Normal",
+      "enabled": true,
+      "identifier": null,
+      "order": 10,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "11 - Exibe o top 3 de álbuns com mais músicas favoritadas",
+      "enabled": true,
+      "identifier": null,
+      "order": 11,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "12 - Exibe o ranking de pessoas artistas",
+      "enabled": true,
+      "identifier": null,
+      "order": 12,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "13 - Exibe a relação de pessoas usuárias e favoritadas por faixa etária",
+      "enabled": true,
+      "identifier": null,
+      "order": 13,
+      "skill_ids": []
+    }
+  ]
+}

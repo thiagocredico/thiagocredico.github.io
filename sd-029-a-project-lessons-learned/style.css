@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    font-size: 25px;
+    background-color: rgb(22, 235, 22);
+    width: 110%;
+    height: 100px;
+    text-align: center;
+    color: rgb(244, 252, 247);
+}
+
+#minha_foto{
+    width: 25%;
+    margin-top: 100px;
+    padding: 1.8%;
+    border: 1.8%;
+    border-radius: 50%;
+}
+
+#licoes_aprendidas{
+    font-family: monospace;
+}
+
+#licoes_a_aprender{
+    font-family: monospace;
+
+}
+
+#rodape{
+
+}
+
+#artigoSobreAprendizado{
+
+}
+
+#breveDescricao{
+
+}
+
+.licoes{
+    font-weight: 18px;
+    font-size: 18px;
+    line-height: 36px;
+    font:normal;
+
+}
+
+.blocoArtigoAside{
+    text-align: center;
+    padding: 30px 70px 90px 70px;
+    width: 25%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;    
+}
+
+.lado-esquerdo{
+
+}
+
+.lado-direito{
+
+}

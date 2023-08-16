@@ -1,0 +1,225 @@
+
+[data-testid="page-album"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(226.56deg, #003BE5 29.7%, #00D5E2 81.59%);
+    align-self: initial;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: calc(100% - 250px);
+    height: 234px;
+    z-index: 2;
+
+}
+.title{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background: linear-gradient(123.66deg, #003BE5 12.08%, #00D5E2 86.52%); */
+    /* align-self: initial; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 0; */
+    /* width: calc(100% - 250px); */
+    height: 234px;
+    z-index: 3;
+}
+
+
+[data-testid="album-image"] {
+    position: absolute;
+width: 240px;
+height: 240px;
+left: 77px;
+top: 111px;
+filter: drop-shadow(-9px 8px 8px rgba(68, 73, 85, 0.2));
+border-radius: 12px;
+}
+
+.albumInfos {
+    position: absolute;
+    left: 362px;
+top: 153px;
+}
+
+[data-testid="album-name"] {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    
+    
+    color: #FFFFFF;
+}
+
+[data-testid="artist-name"] {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    
+    
+    color: #FFFFFF;
+}
+
+
+
+.musicList {
+    display:flex;
+    /* position: relative; */
+    flex-direction: column;
+    /* left: 362px; */
+    /* top: 272px; */
+    /* overflow: auto; */
+    display: flex;
+
+    /* flex-wrap: wrap; */
+    /* align-items: left; */
+    align-items: flex-end;
+    /* justify-content: center; */
+    background: #EFF3F9;
+    /* align-self: initial; */
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+
+    top: var(--top, 234px);
+    width: 100%;
+    /* height: calc(100% - 234px); */
+    z-index: 2;
+    /* height: 486px; */
+    /* height: calc(100% - (2*2px)); */
+    height: 200%;
+
+    overflow: auto;
+    /* left: 250px; */
+    /* margin-bottom: 130px; */
+}
+
+[data-testid="page-album"]>.title>.cyanoBars {
+    height: 172px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+
+    left: 618px;
+    top: -12px;
+    z-index: -2;
+    filter: blur(5px);
+
+}
+
+[data-testid="page-album"]>.title>.blueBars {
+    height: 224px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 149px;
+    top: -112px;
+    z-index: -2;
+    filter: blur(5px);
+}
+
+ [data-testid="page-album"]:before {
+
+    border-radius: 50%;
+    content: "";
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 597px;
+    height: 597px;
+    left: 763px;
+    top: 112px;
+    
+    border: 2.20567px solid #00D5E2;
+    z-index: -1;
+}
+
+[data-testid="page-album"]:after {
+   background: #003BE5;
+    filter: blur(35.5px);
+    border-radius: 50%;
+    content: "";
+    height: 431px;
+    left: 84px;
+    position: absolute;
+    top: 132px;
+    /* transform: translate(-50%, -50%); */
+    width: 431px;
+    z-index: -2;
+    color: rgba(0, 59, 229, 1)
+}
+
+.track {
+    padding-top: 13px;
+    padding-bottom: 18.12px;
+    border-bottom: 0.847727px solid #CCD4E1;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    /* max-width: 591.22px; */
+    margin-right: 76.78px;
+    margin-top: 12px;
+    align-items:center;
+    /* position: relative; */
+    /* align-items: auto; */
+    /* align-content: auto; */
+    /* align-tracks: auto; */
+    /* left: 15px; */
+    /* vertical-align: auto; */
+    /* align-items: top; */
+    /* margin-left: 362px; */
+}
+
+.track > p, audio, label  {
+    display: flex;
+    /* flex-direction:row ;
+    justify-content: space-between;
+    max-width: 591.22px;
+    margin-right: 76.78px;
+    margin-top: 12px;
+    align-items:center; */
+    /* position: relative; */
+    /* align-items: auto; */
+    /* align-content: auto; */
+    /* align-tracks: auto; */
+    /* left: 15px; */
+    /* vertical-align: auto; */
+    /* align-items: top; */
+    /* margin-left: 362px; */
+}
+
+.track > p {
+    width: 212px;
+
+}
+
+.track > audio  {
+    width: 371.3px;
+    /* background-color: #ffffff; */
+    height: 55.95px;
+    /* background: #FFFFFF; */
+    border-radius: 42.3864px;
+    /* color: #FFFFFF; */
+    /* margin-right: 42.28px;
+    margin-left: 42.28px; */
+
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #ffffff;
+}
+
+/* .musicList:last-child:last-child{
+    margin-top: 120px;
+} */
+

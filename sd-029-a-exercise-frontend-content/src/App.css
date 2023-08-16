@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+/* App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background: silver;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  height: 80vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  align-items: center;
+  background: rgb(202, 202, 202);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 180px;
+  justify-content: center;
+  padding: 25px;
+}
+
+.footer {
+  align-items: center;
+  background: rgb(51, 51, 51);
+  bottom: 0;
+  color: white;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}

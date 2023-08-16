@@ -1,0 +1,22 @@
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.login-form-container-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card {
+  width: 300px;
+  margin-top: 20px;
+}

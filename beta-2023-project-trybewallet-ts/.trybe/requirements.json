@@ -1,0 +1,68 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "1 - Crie uma página inicial de login com os seguintes campos e características:",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "2 - Crie um header para a página de carteira contendo as seguintes características:",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "3 - Desenvolva um formulário para adicionar uma despesa contendo as seguintes características:",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4 - Desenvolva testes para atingir 60% de cobertura total da aplicação:",
+      "enabled": true,
+      "identifier": null,
+      "order": 4,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "5 - Desenvolva uma tabela com os gastos contendo as seguintes características:",
+      "enabled": true,
+      "identifier": null,
+      "order": 5,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "6 - Crie um botão para deletar uma despesa da tabela contendo as seguintes características:",
+      "enabled": true,
+      "identifier": null,
+      "order": 6,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "7 - Crie um botão para editar uma despesa da tabela contendo as seguintes características:",
+      "enabled": true,
+      "identifier": null,
+      "order": 7,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "8 - Desenvolva testes para atingir 90% de cobertura total da aplicação:",
+      "enabled": true,
+      "identifier": null,
+      "order": 8,
+      "skill_ids": []
+    }
+  ]
+}

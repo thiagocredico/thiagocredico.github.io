@@ -1,0 +1,127 @@
+header{
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+body{
+  background-color: aquamarine;
+}
+
+main{
+  text-align: center;
+}
+
+.game{
+  background-color: rgb(93, 146, 123);
+  display: inline-block;
+  height: 400px;
+  padding-top: 18px;
+  border-radius: 2%;
+  padding: 9px;
+}
+
+.matriz{
+  background-color: aliceblue;
+  /* height: 80%; */
+  width: 280px;
+  margin: 0 auto;
+  border: 3px solid black;
+
+}
+
+.line{
+  max-height: 40px;
+}
+
+.cell{
+  border: solid black 1px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 20px;
+  padding: 7px 0px;
+  cursor:pointer;
+}
+
+.selected {
+  background-color: rgb(255, 255, 160);
+}
+ul{
+  color: white;
+  display: inline-block;
+  width: 49%;
+  text-align:left;
+  padding: 0px;
+}
+li{
+  margin-left: 18px;
+}
+
+.found {
+  background-color: rgb(86, 251, 64);
+}
+
+.btns{
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.btn-clear, .btn-restart{
+  display: inline-block;
+  background-color: white;
+  padding: 6px 10px;
+  border-radius: 10px;
+  vertical-align: top;
+  margin-top: 20px;
+  cursor:pointer;
+}
+
+.liFound {
+  text-decoration: line-through;
+  color: lawngreen;
+}
+
+footer {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* position:center; */
+  position: absolute; 
+  bottom:0; 
+  width:99%;
+  text-align: center;
+  color: #ffffff;
+  /* padding: 1%; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+
+.socialMedia {
+  /* display:flex ; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  font-size: larger;
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+  margin-top: 6px;
+}
+.socialMedia > a {
+  /* padding: 15px; */
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+ }
+ 
+a:hover {
+  /* text-decoration:solid ; */
+  color: #0a5509;
+ }
